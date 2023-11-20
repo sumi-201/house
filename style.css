@@ -47,14 +47,15 @@ h1 {
 ul {
   display: flex;
   margin: 0 auto;
-  padding: 6px;
+  padding: 10px;
   list-style-type: none;
+  font-size: 12px;
 }
 
 ul li a {
   display: block;
   width: 100%;
-  padding: 10px;
+  padding: 4px;
   text-decoration: none;
   color: #555;
   font-weight: bold;
@@ -289,11 +290,19 @@ footer {
 
   /* header */
 
-  /* .logo {
-    width: 200px;
-    height: 60px;
+  header h1 img {
+    width: 130px;
+    height: 40px;
   }
- */
+
+  ul {
+    font-size: 16px;
+  }
+
+  ul li a {
+    padding: 8px;
+  }
+
   /* hero */
 
   .hero {
